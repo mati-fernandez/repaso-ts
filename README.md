@@ -211,4 +211,6 @@ function handleError(code: ERROR_CODES) {
 handleError(ERROR_CODES.NOT_FOUND);  // Recurso no encontrado.
 ```
 
-## 
+# Proyecto Final en React con TS
+
+[Ver](https://mati-fernandez.github.io/repaso-ts/tareas-pendientes-react-ts/) (Ctrl + click or mouse wheel click to open in new tab)
