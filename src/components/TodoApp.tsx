@@ -1,6 +1,7 @@
+import React from 'react';
 import { useState } from 'react';
 
-export const TodoApp = () => {
+const TodoApp = () => {
   const [newTask, setNewTask] = useState('');
 
   return (
@@ -17,3 +18,5 @@ export const TodoApp = () => {
     </div>
   );
 };
+
+export default TodoApp;
