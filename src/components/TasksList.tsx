@@ -7,7 +7,7 @@ type TasksList = {
 
 export const TasksList = ({ tasksList, deleteTask }: TasksList) => {
   return (
-    <div className="taskList">
+    <div className="task-list">
       {tasksList.map((task, index) => (
         <Task key={index} task={task} deleteTask={() => deleteTask(index)} />
       ))}

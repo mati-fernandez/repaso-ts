@@ -24,7 +24,6 @@ h1 {
 }
 
 button {
-  margin: 0 30px;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -61,6 +60,7 @@ input[type='text'] {
   padding: 10px;
   font-size: 16px;
   margin-bottom: 10px;
+  box-sizing: border-box;
 }
 
 .flex {
@@ -68,7 +68,7 @@ input[type='text'] {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  /* align-content: center; */
+  align-content: center;
   justify-content: center;
   align-items: center;
 }
@@ -79,12 +79,14 @@ input[type='text'] {
   padding: 10px;
   border: 1px solid #ccc;
   margin-bottom: 10px;
-  background-color: #f9f9f9;
-  color: black;
+  padding-left: 20px;
+  background-color: #4e4e4e;
+  color: rgb(255, 255, 255);
 }
 
 .task button {
-  background-color: #dc3545;
+  background-color: #970909;
+  margin-left: 20px;
 }
 
 .task button:hover {
@@ -96,23 +98,12 @@ input[type='text'] {
   align-items: center;
 }
 
-.taskList {
-  min-width: 25vw;
-  margin: 30px;
+.task-list {
+  width: 100%;
+  margin: 10px 0;
 }
 
 .app-container {
   text-align: center;
   padding: 20px;
-}
-
-h1 {
-  margin-bottom: 20px;
-}
-
-input[type='text'] {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  margin-bottom: 10px;
 }
